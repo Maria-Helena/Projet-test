@@ -4,8 +4,7 @@ color:red;
 }
 h2 {
     text-align: center;
-    color: purple;
-    
+    color: red;    
 }
 a{
     color:orange;
@@ -16,8 +15,9 @@ a{
 header{
     background: purple;
     padding-top: 15px;
-    padding-bottom: 15px;
-    font-size: 25px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
 }
 
 nav ul{
@@ -26,12 +26,46 @@ nav ul{
 
 nav li {
     display: inline-block;
-    width:33%;
+    width:32%;
     text-align: center;
 }
 p{ text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     
 }
+body {
+    background-image: url(images/retina_wood/retina_wood/retina_wood.png);
+    font-family: 'Raleway', sans-serif;
     
+}
+ li {
+    text-align: center;
+    text-decoration :none;
+     list-style: none;
+}
+
+main li {
+    margin-bottom: 20px;
+}
+
+ul {
+    font-size: 25px;
+}
+footer{
+    background: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+footer a {
+    width: 32%;
+    display: inline-block;
+ 
+}
+main {
+    min-height:calc(100% - 80px);
+}
+html, body {
+    height: 100%;
+}
     
